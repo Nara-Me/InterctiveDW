@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>hello</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Didact Gothic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="libraries/p5.min.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="libraries/c2.min.js"
+    ></script>
+  </head>
+
+    <div id="wrapper">
+    <body>
+      <div id="background"></div>
+      <div id="start" class="middle">
+        <input
+          type="text"
+          id="Welcome"
+          minlength="1"
+          maxlength="15"
+          value="oh hello"
+        />
+      </div>
+      <a class="scroll start" id="dropDown" href="#second">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 486.67 171.88"
+          style="width: 15vw; height: 7vh"
+        >
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: #eeecef;
+                stroke-linecap: square;
+                stroke-miterlimit: 10;
+                stroke-width: 10px;
+              }
+            </style>
+          </defs>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <line class="cls-1" x1="6.94" y1="6.94" x2="241.94" y2="164.94" />
+              <line
+                class="cls-1"
+                x1="479.73"
+                y1="6.94"
+                x2="244.73"
+                y2="164.94"
+              />
+            </g>
+          </g>
+        </svg>
+        <div></div
+      ></a>
+
+      <a id="second" class="scroll first" href="#start">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 486.67 171.88"
+          style="width: 15vw; height: 7vh; transform: rotate(180deg)"
+        >
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: #eeecef;
+                stroke-linecap: square;
+                stroke-miterlimit: 10;
+                stroke-width: 10px;
+              }
+            </style>
+          </defs>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <line class="cls-1" x1="6.94" y1="6.94" x2="241.94" y2="164.94" />
+              <line
+                class="cls-1"
+                x1="479.73"
+                y1="6.94"
+                x2="244.73"
+                y2="164.94"
+              />
+            </g>
+          </g>
+        </svg>
+        <div></div>
+      </a>
+
+      <div id="introductions">
+        <p class="text">
+          Ok fine. Hi, my name is Margarida Mendonça and I'm old enough to do
+          meaningfull decisions in my life without adult supervision, but you
+          don't need to know that. Anyway, if you're reading this,
+          congratulations on your stubbornness. No, really. Congrats. Hmm I
+          guess it wasn't that bad, just a little hickup to deter some people.
+          Why? Well, you could say I'm not the most open book... Tell me, was it
+          worth it? Are you fulfilled? Is getting a slither of context trully
+          all you wanted? Ok then. Good for you. With introductions out of the
+          way, I guess I should reward you? How about I tell you a little
+          secret?
+          <i
+            >If I had had just a tiny bit more time, you would have never found
+            me.</i
+          >
+          FUN. Anyway, I'm feeling generous so <a href="https://drive.google.com/drive/folders/1FbNXsuYPL2DAb7U4DjeEvQQuPQo-Z2WP?usp=sharing" target="_blank">here's a sneaky link</a> to one of my
+          projects. Just the one though.
+        </p>
+      </div>
+
+      <div id="cat1" class="cat">
+        <img src="imgs/Cat.jpg" alt="Cat" />
+      </div>
+
+      <div id="cat2" class="cat">
+        <img src="imgs/cats.jpg" width="300" height="auto" alt="Cat" />
+      </div>
+
+      <div id="cat3" class="cat">
+        <img src="imgs/kat.jpg" width="300" height="auto" alt="Cat" />
+      </div>
+
+      <div id="cat4" class="cat">
+        <img src="imgs/kats.jpg" width="300" height="auto" alt="Cat" />
+      </div>
+
+      <div id="cat5" class="cat">
+        <img src="imgs/ket.jpg" width="300" height="auto" alt="Cat" />
+      </div>
+
+      <a id="tothird" class="scroll second" href="#third">
+        <div></div>
+      </a>
+
+      <a id="third" class="scroll third" href="#second">
+        <div></div>
+      </a>
+
+      <div class="end">
+        <div id="changeText"></div>
+      </div>
+    </body>
+    <script src="c2.js"></script>
+    <div id="canvasContainer"></div>
+  </div>
+</html>
