@@ -89,7 +89,7 @@ input {
 }
 
 .start {
-  /*display: none;*/
+  display: none;
   top: 80vh;
 }
 
